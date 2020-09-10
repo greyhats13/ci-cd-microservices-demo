@@ -1,7 +1,7 @@
 // ::DEFINE 
 def image_name          = "gomicroservice"
 def service_name        = "gomicroservice"
-def repo_name           = "gomicroservice"
+def repo_name           = "ci-cd-microservices-demo"
 def unitTest_standard   = "80.0%"
 
 // ::URL
