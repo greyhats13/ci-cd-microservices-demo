@@ -11,8 +11,8 @@ def ecr_credentialsId   = "ecr:ap-southeast-1:awscredentials"
 def helm_git            = "https://github.com/greyhats13/helm-microservices-demo.git"
 def artifact_url        = "http://nexus.blast.co.id/repository"
 def spinnaker_webhook   = "http://spinnaker-login.blast.co.id/webhooks/${service_name}"
-def automation_repo     = "https://github.com/automation-testing/automation-testing.git"
-def k6_repo             = "https://github.com/load-test/loadtest.git"
+def automation_repo     = "https://github.com/greyhats13/${repo_name}.git"
+def k6_repo             = "https://github.com/greyhats13/loadtest.git"
 
 // ::NOTIFICATIONS
 def telegram_url        = "https://api.telegram.org/bot1294113089:AAGIfRq_iAKckaeRgRqXxPwfR3yFpVtEKUw/sendMessage"
